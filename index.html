@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js" defer></script>
+    <title>TodoList</title>
+</head>
+<body id="blur">
+    <div class="main-container" id="main-container">
+        <div class="up-container">
+            <div></div>
+            <h1 id="label">TodoList</h1>
+            <input id="toggle" class="toggle" type="checkbox">
+        </div>
+        <ul id="todoList"></ul>
+        <div class="control-container">
+            <input type="text" id="input" placeholder="Add a new task...">
+            <button onclick="AddItem()">Add</button>
+            <button onclick="ClearAll()">Clear All</button>
+        </div>
+    </div>
+</body>
+</html>
